@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+[class*="col-"]{
+    height: calc(1170px / 24);
+}
+
+.black{
+    background-color: black;
+}
+
+.grey{
+    background-color: rgb(95, 95, 95);
+}
+
+.lightgrey{
+    background-color: rgb(145, 145, 145);
+}
+/* debug */
+/* .debug .row{
+    padding: 10px;
+    border: 1px solid red;
+} */
+
+.debug [class*="col"]{
+    /* padding: 10px; */
+    border: 1px solid black;
+}
