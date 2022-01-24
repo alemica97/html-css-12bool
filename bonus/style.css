@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(0, 0, 87);
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -27,19 +32,35 @@
 }
 
 .red{
-    background-color: red;
+    animation: 2s linear infinite spada;
 }
 
 .lightred{
     background-color: rgb(255, 80, 80);
 }
-/* debug */
-/* .debug .row{
-    padding: 10px;
-    border: 1px solid red;
-} */
 
-.debug [class*="col"]{
-    /* padding: 10px; */
-    border: 1px solid black;
+.blue{
+    background-color: rgb(35, 82, 223);
+}
+
+.strongred{
+    background-color: rgb(211, 0, 0);
+}
+
+@keyframes spada{
+    0%{
+        background-color: transparent;
+    }
+    25%{
+        background-color: rgb(255, 154, 154);
+    }
+    50%{
+        background-color: rgb(255, 82, 82);
+    }
+    75%{
+        background-color: rgb(255, 41, 41);
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+    }
 }
