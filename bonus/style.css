@@ -25,6 +25,14 @@
 .lightgrey{
     background-color: rgb(145, 145, 145);
 }
+
+.red{
+    background-color: red;
+}
+
+.lightred{
+    background-color: rgb(255, 80, 80);
+}
 /* debug */
 /* .debug .row{
     padding: 10px;
