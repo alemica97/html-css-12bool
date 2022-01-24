@@ -1,0 +1,13 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}

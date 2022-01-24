@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* DEBUG   */
+
+.debug [class*="col"]{
+    background-color: lightskyblue;
+    padding: 20px 0;
+    border: 2px solid white;
+}
