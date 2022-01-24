@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
-
+[class*="col"]{
+    text-align: center;
+}
 
 
 /* DEBUG   */
 
 .debug [class*="col"]{
     background-color: lightskyblue;
-    padding: 20px 0;
+    padding: 10px 10px;
     border: 2px solid white;
+}
+
+.debug .row .nested{
+    background-color: greenyellow;
+    padding: 10px 0;
+    border: 1px solid lightskyblue;
 }
