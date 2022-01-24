@@ -66,6 +66,8 @@
     max-width: calc((100% / 12) * 12);
 }
 
+
+
 /* OFFSET   */
 .col-offset-1{
     margin-left: calc((100% / 12) * 1);
@@ -99,4 +101,36 @@
 }
 .col-offset-11{
     margin-left: calc((100% / 12) * 11);
+}
+
+
+
+/* classi di justify content  */
+.content-start{
+    justify-content: flex-start;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.content-end{
+    justify-content: flex-end;
+}
+
+/* classi di align items  */
+.align-start{
+    align-items: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.tall{
+    min-height: 80px;
 }
