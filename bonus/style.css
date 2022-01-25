@@ -9,14 +9,14 @@ body{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 70vw;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 20px;
 }
 
 [class*="col-"]{
-    height: calc(1170px / 24);
+    height: calc(70vw / 24);
 }
 
 .black{
